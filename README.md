@@ -5,3 +5,6 @@ Li diversos textos explicativos e assisti incontáveis vídeos. Hoje ainda parec
 Consegui fazer o que, nesse momento, eu gostaria. <br>
 Terminei o módulo do curso que falava sobre exatamente o que eu coloquei em prática aqui. Deu certo!<br> 
 Não ficou bonito, não ficou perfeito, mas foi feito.</p>
+
+site disponibilizado : https://daianepsicologatcc.netlify.app/
+link do forms : https://docs.google.com/spreadsheets/d/12D636kTJL-6RvJDSGMt2-wwHbsXSAvHXci-piWYlYuI/edit?gid=0#gid=0
