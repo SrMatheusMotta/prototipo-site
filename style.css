@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    background-color: #fff9e3;
+    width: 100%;
+    height: 150px;
+
+}
+
+.important {
+    color: #ff7f4f;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-family: 'Alata';
+}
+
+.subtitles {
+    color: #ff7f4f;
+    margin-left: 50px;
+    font-family: 'AbeeZee';
+    font-size: 30px;
+    font-weight: 10;
+}
+
+.topnavegation {
+    font-family: 'AbeeZee';
+    font-size: 20px;
+    list-style: none;
+    float: right;
+
+    & li {
+        position: relative;
+        top: -70px;
+        left: -40px;
+        float: right;
+
+        & a {
+            color: #ff7f4f;
+            text-decoration: none;
+            padding: 5px 10px;
+            display: block;
+
+        }
+    }
+}
+
+.topnavegation li a:hover {
+
+    background: #ff7f4f;
+    color: #fff9e3;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+    border-radius: 10px;
+}
+
+#mainPage {
+    display: grid;
+    grid-template-columns: 50% auto;
+    background-color: #F5F5DC;
+    padding-bottom: 50px;
+
+    & .textAbout {
+        font-family: 'AbeeZee';
+        margin-left: 10px;
+        color: #ff7f4f;
+        text-align: justify;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+
+    }
+}
+
+#textInfo {
+
+    font-family: 'AbeeZee';
+    color: #ff7f4f;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+#listInfo {
+
+    font-family: 'AbeeZee';
+    color: #ff7f4f;
+    text-align: justify;
+}
+
+img {
+    width: 200%;
+    height: auto;
+}
+
+.important1 {
+    color: #ff7f4f;
+    margin-left: 80px;
+    padding-top: 50px;
+    font-family: 'Alata';
+}
+
+#aboutImg {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+
+}
+
+#aboutImg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(./image/Psicologa\ HD.jpg);
+    background-attachment: local;
+    background-size: cover;
+    z-index: -1;
+    opacity: 20%;
+    border: solid #ff7f4f;
+}
+
+.important2 {
+    color: #ff7f4f;
+    text-align: center;
+    font-family: 'Alata';
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+#textAbout2 {
+    font-family: 'AbeeZee';
+    color: #ff7f4f;
+    text-align: justify;
+    margin: 80px;
+    font-size: large;
+}
+
+#logoD {
+    background-color: #ff7f4f;
+    width: 100%;
+    height: 300px;
+
+}
+
+#imageLogo {
+
+    width: 500px;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 200px;
+
+    & img {
+        border-radius: 10px;
+
+    }
+}
+
+#testimony1 {
+    background-color: #fff9e3;
+    display: grid;
+    grid-template-columns: 50% auto;
+    width: 100%;
+    height: 500px;
+}
+
+#content-testimony1 {
+    padding: 50px;
+
+
+}
+
+.testimony-img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+.testimony-text {
+    display: flex;
+    align-items: center;
+    font-family: 'AbeeZee';
+    color: #ff7f4f;
+
+}
+
+#service1 {
+    background-color: #F5F5DC;
+}
+
+.serviceTitle {
+    color: #ff7f4f;
+    text-align: center;
+    font-family: 'Alata';
+    padding-top: 30px;
+    font-size: 50px;
+     
+}
+
+.serviceSub {
+    color: #ff7f4f;
+    font-family: 'Alata';
+    padding-left: 80px;
+    font-size: 25px;
+}
+
+.serviceList {
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'AbeeZee';
+    font-size: 15px;
+    color:#ff7f4f ;
+}
+
+#questionsText {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#serviceTitle {
+    text-align: center;
+    margin: 60px 0 40px 0;
+    font-size: 1.5em;
+    color: #ff7f4f;
+    font-family: 'AbeeZee';
+    text-transform: uppercase;
+    padding-left: 200px;
+}
+
+#listItem {
+    background-color: #fff9e3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 2px 6px  #ff7f4f;
+    width: 600px;
+    
+  
+}
+
+.questionTitle {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1.4em;
+    font-family: 'AbeeZee';
+    color: #ff7f4f;
+}
+
+.questionTitle::before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 24px;
+    margin-right: 10px;
+    background-color: #ff7f4f;
+}
+
+.questionTitle::after {
+    content:'+';
+    float: right;
+    transition: transform .3s ease;
+
+}
+
+.responseText {
+    padding: 10px;
+    color: #ff7f4f;
+    font-family:'AbeeZee';
+    font-size: .875em;
+    line-height: 1.4;
+    display: none;
+}
+
+.inputOn {
+    display: none;
+}
+
+.inputOn:checked + #response1 .responseText {
+    display: block;
+}
+
+.inputOn:checked + #response1 .questionTitle::after {
+    transform: rotate(45deg) scale(1.08);
+}
+
+#questionsText {
+    background-color: #F5F5DC;
+    margin: 0;
+    padding:30px 600px 80px 350px;
+    
+}
+
+#contact-me {
+    text-align: center;
+    background-color: #fff9e3;
+    width: 1348px;
+    height: 600px;
+
+}
+
+/* #texto-formulario {
+    text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF;
+    font-size: 32px;
+    
+} */
+
+input {
+    color: #ff7f4f;
+    background-color: #FFFFFF;
+    outline: 0;
+    box-shadow: 0 2px 6px  #ff7f4f;
+    width: 450px;
+    height: 60px;
+    margin: 50px 0 5px 0;
+    padding-left: 20px;
+    border: 1px;
+    border-radius: 10px;
+    font-family:'AbeeZee';
+    font-size: 24px;
+    font-weight: bolder;
+       
+}
+
+input::placeholder{
+    color:#ff7f4f;
+    opacity: 50%;
+}
+
+button {
+    width: 280px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0px;
+    font-family: "raleway";
+    font-size: 30px;
+    font-weight: bold;
+    background-color:  #ff7f4f;
+    box-shadow: 0 2px 6px #F5F5DC;
+    color: #FFFFFF;
+    margin-top: 80px;
+    cursor: pointer;
+    padding: 0;
+}
+
+#formTitle {
+    color: #ff7f4f;
+    text-align: center;
+    font-family: 'Alata';
+    padding-top: 30px;
+    font-size: 30px;
+}
